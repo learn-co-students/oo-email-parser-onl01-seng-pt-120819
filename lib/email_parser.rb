@@ -10,7 +10,6 @@ class EmailAddressParser
   
   def parse
     newarray=@emails.split(/, | /).uniq
-    
     return newarray
   end
 end
